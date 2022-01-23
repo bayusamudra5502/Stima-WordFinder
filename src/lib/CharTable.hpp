@@ -26,6 +26,7 @@ private:
   string getNW(int x, int y);
 public:
   CharTable(int availableSize = 10);
+  ~CharTable();
 
   class iterator
   {
