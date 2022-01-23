@@ -9,8 +9,10 @@ class CharTable
 {
 private:
   CharNode* table;
-  int size;
+  int availableSize;
   int columns, rows;
+  int length;
+  bool isSized = false;
 
   string getN(int x, int y);
   string getNE(int x, int y);
@@ -23,32 +25,30 @@ private:
   string getW(int x, int y);
   string getNW(int x, int y);
 public:
-  CharTable(int size = 10);
+  CharTable(int availableSize = 10);
 
   class iterator
   {
     private:
-      CharNode* node;
+      CharNode& node;
     public:
       iterator(Direction dir);
 
-      iterator* next();
-      iterator* prev();
-      char getValue();
+      iterator& operator++();
+      char operator*();
       
       bool isNextAvailable();
-      bool isPrevAvailable();
   };
 
   int getColumns();
   int getRows();
+  int getAvailableSize();
 
   void setSize(int rows, int cols);
-
-  int getSize();
 
   void insertChar(char t);
 
   string getString(int x, int y, Direction direction);
   iterator* getIterator(int x, int y, Direction dir);
+  iterator* tranverseAllItem(int x, int y);
 };
