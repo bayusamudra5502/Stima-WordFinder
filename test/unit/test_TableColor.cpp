@@ -24,11 +24,11 @@ TEST(ColorTableTest, DISABLED_SetColor){
   ctable->setColor(2,4, GREEN);
 
   Color answer[25] = {
-    RED,    RED,    RED,    RED,    NORMAL,
-    NORMAL, NORMAL, NORMAL, NORMAL, NORMAL,
-    NORMAL, NORMAL, BLUE,   NORMAL, GREEN,
-    NORMAL, NORMAL, NORMAL, GREEN,  NORMAL,
-    NORMAL, NORMAL, GREEN,  NORMAL, NORMAL
+    RED,    RED,    RED,    RED,    HIDDEN,
+    HIDDEN, HIDDEN, HIDDEN, HIDDEN, HIDDEN,
+    HIDDEN, HIDDEN, BLUE,   HIDDEN, GREEN,
+    HIDDEN, HIDDEN, HIDDEN, GREEN,  HIDDEN,
+    HIDDEN, HIDDEN, GREEN,  HIDDEN, HIDDEN
   };
 
   CharTable::iterator* it = ctable->tranverseAllColor();

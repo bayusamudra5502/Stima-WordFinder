@@ -10,3 +10,15 @@ enum Direction {
   WEST,
   NORTHWEST
 };
+
+enum Color {
+  NORMAL,
+  HIDDEN,
+  RED,
+  GREEN,
+  YELLOW,
+  BLUE,
+  MAGENTA,
+  CYAN,
+  WHITE
+};

@@ -31,11 +31,11 @@ TEST(WordFinderTest, DISABLE_Test){
   finder->colorizeWord("sf");
 
   Color colorTable[5][6] = {
-    {MAGENTA, RED,     RED,      GREEN,  RED,    NORMAL},
-    {NORMAL,  MAGENTA, NORMAL,   GREEN,  WHITE,  WHITE},
-    {NORMAL,  NORMAL,  MAGENTA,  CYAN,   NORMAL, NORMAL},
-    {NORMAL,  NORMAL,  CYAN,     BLUE,   BLUE,   BLUE},
-    {WHITE,   WHITE,   NORMAL,   YELLOW, YELLOW, YELLOW},
+    {MAGENTA, RED,     RED,      GREEN,  RED,    HIDDEN},
+    {HIDDEN,  MAGENTA, HIDDEN,   GREEN,  WHITE,  WHITE},
+    {HIDDEN,  HIDDEN,  MAGENTA,  CYAN,   HIDDEN, HIDDEN},
+    {HIDDEN,  HIDDEN,  CYAN,     BLUE,   BLUE,   BLUE},
+    {WHITE,   WHITE,   HIDDEN,   YELLOW, YELLOW, YELLOW},
   };
 
   ColorTable* table = new ColorTable(5,6);

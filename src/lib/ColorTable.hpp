@@ -1,16 +1,6 @@
 #pragma once
 #include "CharTable.hpp"
-
-enum Color {
-  NORMAL,
-  RED,
-  GREEN,
-  YELLOW,
-  BLUE,
-  MAGENTA,
-  CYAN,
-  WHITE
-};
+#include "types.hpp"
 
 class ColorTable: private CharTable
 {
