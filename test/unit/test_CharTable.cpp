@@ -25,7 +25,6 @@ TEST(CharTableTest, DISABLED_TestInsertChar){
 
   string result = table->getString(0,0,EAST);
   ASSERT_STREQ(result.c_str(), "abcdefghijklmnopqrst");
-  ASSERT_EQ(result, new string("abcdefghijklmnopqrst"));
 }
 
 TEST(CharTableTest, DISABLED_TestSizing){
@@ -44,7 +43,7 @@ TEST(CharTableTest, DISABLED_TestSizing){
   ASSERT_EQ(table->getRows(), 25);
 }
 
-void checkRoutines(char ans[], Direction dir){
+void checkRoutines(string ans, Direction dir){
   CharTable* table = new CharTable();
 
   for(int i = 0; i < 25; i++){
@@ -57,7 +56,7 @@ void checkRoutines(char ans[], Direction dir){
   int i = 0;
 
   while(itN->isNextAvailable()){
-    ASSERT_EQ(ans[i], *itN);
+    ASSERT_EQ(ans[i], **itN);
     i++;
     itN++;
   }
@@ -85,14 +84,14 @@ TEST(CharTableTest, DISABLE_TestTranverse){
   CharTable::iterator* hasil  = table->tranverseAllItem(0,0);
 
   for(int i = 0; i < 25; i++){
-    ASSERT_EQ(*hasil, 'a'+i);
+    ASSERT_EQ(**hasil, 'a'+i);
     hasil++;
   }
 
   hasil = table->tranverseAllItem(3,3);
   
   for(int i = 9; i < 25; i++){
-    ASSERT_EQ(*hasil, 'a'+i);
+    ASSERT_EQ(**hasil, 'a'+i);
     hasil++;
   }
 }

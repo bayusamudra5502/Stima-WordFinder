@@ -49,7 +49,7 @@ TEST(WordFinderTest, DISABLE_Test){
   CharTable::iterator *it = table->tranverseAllColor();
   for(int i = 0; i < 5; i++){
     for(int j = 0; j < 6; j++){
-      ASSERT_EQ(colorTable[i][j], *it);
+      ASSERT_EQ(colorTable[i][j], **it);
       it++;
     }
   }

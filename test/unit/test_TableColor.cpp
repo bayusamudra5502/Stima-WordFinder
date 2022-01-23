@@ -34,7 +34,7 @@ TEST(ColorTableTest, DISABLED_SetColor){
   CharTable::iterator* it = ctable->tranverseAllColor();
 
   for(int i = 0; i < 25; i++){
-    ASSERT_EQ(*it, answer[i]);
+    ASSERT_EQ(**it, answer[i]);
     it++;
   }
 }

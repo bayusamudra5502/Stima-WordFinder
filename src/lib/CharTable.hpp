@@ -19,8 +19,6 @@ private:
   string getE(int x, int y);
   string getSE(int x, int y);
   string getS(int x, int y);
-  string get(int x, int y);
-  string getS(int x, int y);
   string getSW(int x, int y);
   string getW(int x, int y);
   string getNW(int x, int y);
