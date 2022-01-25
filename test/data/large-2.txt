@@ -1,5 +1,40 @@
-36
-34
+M S Z Q K B S G Y K F F B E C D A F Z W J K K F I V S R F R L P Y P 
+U U S E L E S S L R W P V P V M H D M I H I S S S F Z O W K N J O L 
+D L S A J C I T H A N S G A K O Z J G R S L T Q R H D T Z C N P Y R 
+B R Q W R O O N P B N C H W F Y N H Z E O S U U M V F F M J Y E L L 
+B N E G M R R W S R Y O L Z Q N X B N G U S R Z A C A A K Q P O N M 
+V F H Z C G L I E T R R I U U U T S T H V N U C F I D Z W B J W R M 
+P P G H Q O O H Q M A G S T T R A Q H C Z O N Z F N O U C N M S T E 
+V Q V Z G Z O G F R V N K A A T B K Z C D O O H R O B H G I E N C P 
+M Y J G U C C G K Z W W C J Y N U E O J A D F B W O V C Y K B T T F 
+A Q Y V O A D Z Y Y P K W E A K R O J S J D Y V O D S A Q H C D E Q 
+F U O R S E V C T W B U I G G B K E R O S T N U N E X K P O W C N A 
+Z A X H X E I I A D Y P M C A I K U T B P A M G L X F J J P S Q G H 
+S Q B N F Y S O D P Y P S B N R L I G N Q D X I P U I B E H H N V Y 
+P N Q S H R I B X X M H M G O O C Q N N I N A T G T S J J Y O W X N 
+H U Z W E O K J Y T I L I B A I Q K R S R T S Y W Q U K E Q S F E I 
+Z N C V V B O P J X F U Y S J P P M D X T K F E Z K O X R V O W Z U 
+I Y I Q H X H K I U V P M Q X B Y C F D D I C C F J V Q O F R O G X 
+V N X W C Q A A S X T Q K Y A A E F C S I E T A S A R N L A Q E X Z 
+U L Q I F Y I E L D K G U T P W R K H F W G U U E L E C M C F U N X 
+H Q N C C N I B A L F A S T I G I D L Y A Y J M T B N I L T K O O G 
+H J U M Q K T I B B A R L R F P I J T W P D L J E I M D B O S N M O 
+S D N X S R T S R D A J B A L H J O V T H E E M I B O J Q R I P C L 
+O R X X K R A X A T U N J C S G X J C Q J B F T K E H N P Y B F W K 
+Y T L U C A F X Z F D F D S A Y B S P C E C R X O P O G K F L X G Z 
+F P K P E I C O A O Z M F O F P O G J O Q C I Y O M T A R A F D X Y 
+F S N W Y C Z O S B T S Y B N Z N V R A Z B G T C M Y S P A G E B O 
+J E S C M H H C M T L C P W S O K V S L P B Q V Q L W T T T M L F L 
+L H E O T Z I Y N M U E Y D F B O K E P B S M W X J S T S R V K W F 
+A F W Z I F I A A C Y T A U K P R C P C B M I F E C V E Y O L T O I 
+P Y O U S W T R R S F E H T R A V C Y I W P H C F W Q D V Z R A K F 
+T R P V C Y O O V A T H Z U N I V E R S E F C H L E Y C F P X W H C 
+O B M K H H W O F S J F M J X N N M N X M I W K E J A X U H C Q K A 
+P B P X T T W Q N Y H V B E Q G H X M W T Y Z L I F Y U O E W T E P 
+Z L D U R S L I Y G P B Z V C U L Y A H H E E X Q K K M V L L K R G 
+U X A G T L A N O I T U T I T S N I K Y W K N N W G U C R G I P V G 
+Y J O Z U X M J P U T F L O T C W E I B R E H T I E N H P Q K H L K 
+
 ABANDON
 ABILITY
 ABLE
@@ -32,4 +67,3 @@ TUXEDO
 RABBIT
 COAL
 TORCH
-.

@@ -1,5 +1,40 @@
-36
-34
+I C V P C P V D V P K B T L Z N R R A U V O L S G O K Q L Y E K Z A 
+P E S A C A P N O I L U F O G A B R V C E L K N Q R U C Z L D V S W 
+H O R U R N B F V U R H K O W A N J B M N I G M F J H Z Y O M W Y O 
+V O O D L D Y S E B X N A K J F T E C E P O U U B R A S A V G A K V 
+B J R I N A K B A X T S J M C L F I Y W K V K M U I T M W E L N T Z 
+F I T I G R R W A A N D J P X X L A G J X O E N C S J J P B P S U I 
+A K Y C R X A K O I X G I C U D L L S E V C E I U L X O V K K F P T 
+N H B J O J E G Z I Z K G O F W G F Y L R U Q L F R N A D H G X Q I 
+G P A X B E B C A A C E U G F I B R V G L I O L U N J I B I M F M P 
+C P J O O O Y W E M O U P S P V I O B V K S H P T A X Y F W G V G K 
+K U U A X B J O M O C Z C O R B I G U M B P N M O F F Z H N M U Q Q 
+D K K V Z H Q A L T O A D Y R E G U J M Z I T Y V H R H J E M T N U 
+R Z S P A K F G H D K D Q S E L X B I D S E R T B J O K H S E Z B E 
+C Q J R Y I W U P Q Y C T F A H H X U R A L P U M F D D Y I U Y F U 
+H B B B F K K G I P U L F X K Q N G B R C S T S U A F L Q F C B C E 
+R S C L E C G A W V C P O K P X R I O K T I E O K D G O I N O Q Y K 
+O U A O D V P P G I Y Z O U I S J F Q E L L R L D S V V H G C T G D 
+T W I N C O U L T T W G I A V Y H K V U P M B I O F T U U C A K B P 
+A K H Q X Z U Z C R G B O O F G W V P F A L J G U L D Y M K N X C T 
+G O J X Q K E R G S K P I L G K R C D X R R R J P F Z M R R M B X X 
+I G L T O N C I X C X T E C F L W B K F G V Q U W H O E D G F M N D 
+L F K D P D H N Z Z D S N N O Z T A Y B G F D B X W E L N V L S B L 
+L V U T N M R X K F A J V A G X J I P V I D T Z I M U A F S S H G V 
+A A R Q Z H D C F E H X H G H U I B Q O P P U O T X G V K Z I E G N 
+S Z R M T T T X W T I Y S X B P I C T K H T T Y L Z N K I T V H B T 
+V A S V V N U H Z O B R V D C Y E N T P Q C V E E F F A R I G H X R 
+D Z Z Q Y G S X J F Q O Y X S D G L G W A G L M M H X J H V U Q P C 
+G Y I T V L N U L V Z P F S Z G B P E O S D Z F H L L S Z D G Z X G 
+Z V D F W F W S Y U B P U L E I Y K F H O O L S P S I R O L Y A R G 
+B Z T X F C F S A D F J F P Y E J Q Y G O N L U K Q P L U J I W S Y 
+M O N K E Y Y Q X T Q Q Z W O U W W G W L O W U R G Q E K Q M G I Q 
+G I A G C C P O L A R B E A R D U R P B H G F C O S L G C Q O R I M 
+I P A N D W X U O D Z I L K U L Y W M K P M W R T P S I F H L S H Z 
+A H L S L M H C D H S F D C A V U V G R L T J A S O D L E B O K R C 
+E S E P E P E C D Q D Z N A K C C Z V W S H N L H F F G P Y W G C Y 
+K X B F K H R V A P F D L D C N V Y S X O U A Z G G K K F U J G S V 
+
 ALLIGATOR
 BEAR
 ELEPHANT	
@@ -15,4 +50,3 @@ POLARBEAR
 STORK
 TIGER
 TOAD	
-.
