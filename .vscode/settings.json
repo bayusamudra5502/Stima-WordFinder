@@ -3,6 +3,7 @@
     "*.ejs": "html",
     "*.js": "javascript",
     "*.pl": "prolog",
-    "string": "cpp"
+    "string": "cpp",
+    "vector": "cpp"
   }
 }
