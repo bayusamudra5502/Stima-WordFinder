@@ -59,4 +59,6 @@ test: ./bin/test
 run: ./bin/main
 	@./bin/main
 
-.PHONY: all clean clear test run
+build: ./bin/main
+
+.PHONY: all clean clear test run build
