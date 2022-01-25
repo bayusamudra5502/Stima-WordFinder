@@ -1,6 +1,4 @@
 #!/bin/python
-from curses.ascii import isalnum
-from pickle import FALSE
 import random
 
 # Utility
@@ -107,7 +105,7 @@ for i in words:
 
 for i in table:
   for ch in i:
-    if ch == "" or not isalnum(ch):
+    if ch == "" or not ch.isalnum():
       print(chr(random.randint(ord("A"),ord("Z"))), end=" ")
     else:
       print(ch, end=" ")
