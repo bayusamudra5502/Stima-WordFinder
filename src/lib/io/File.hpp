@@ -20,6 +20,6 @@ class FileReader {
   vector<string> getPatterns();
 };
 
-void writeTableToFile(ofstream filestream, vector<string> charTable,
+void writeTableToFile(ofstream& filestream, vector<string> charTable,
                       vector<vector<Color>> colorTable);
 }  // namespace FileManagement

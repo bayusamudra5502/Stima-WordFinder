@@ -1,0 +1,18 @@
+-- Hasil Pemrosesan --
+
+- - B - - - - - - - - - - - - -
+- - G E T - A S L E E P - - - -
+- - - N L N - - - - - - E E - -
+- H - - I P U - - - - - C C - -
+- E - - D X - R - - - - N R - -
+- D - - E - A - B - - - A U - -
+- G - - F - - W - - - - R O - -
+- E - - A - O O Z Y R - P S - Y
+- - - - C - - P - - - O - - - E
+- - - - E - O - A - - P W - - V
+- - - - - - E - - D A - - E - N
+- - - - - - D - - R D - - - R O
+- - - - - - I - T - - Y - - - C
+- - - - - - V - - - - - - - - -
+
+Waktu Eksekusi : 45.623 ms

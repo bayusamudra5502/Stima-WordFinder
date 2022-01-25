@@ -1,0 +1,18 @@
+-- Hasil Pemrosesan --
+
+- - T R A M - - - - - - - - - -
+- - - - - - - - - - - P O S E D
+- E B B I N G P - - - - - - - -
+- - - - - - R - H T M R A W - L
+- - - - - E - - - - - - - - L -
+- - - - F - F - - - - P - O - -
+- - W I L - A - - - - E T - - -
+- - X E - - T - - - - C - - - -
+- - D - I - T - - A - K - - - -
+- G - - - V E - - M B E W B O C
+E - - - - - N S - M - D - - - -
+- - W O L G - L - O - - - - - -
+- - - - - - - I - C - - - - - -
+- - - - - - - A - - - - - - - -
+
+Waktu Eksekusi : 43.166 ms

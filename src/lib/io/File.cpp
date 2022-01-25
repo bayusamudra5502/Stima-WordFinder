@@ -39,6 +39,8 @@ void FileManagement::FileReader::parse() {
     if (!isStringSpaceOnly(line)) this->patterns.push_back(line);
   }
 
+  Util::trimVectorString(this->patterns);
+
   fileStream.close();
 }
 
@@ -50,11 +52,9 @@ vector<string> FileManagement::FileReader::getPatterns() {
   return this->patterns;
 }
 
-void FileManagement::writeTableToFile(ofstream filestream,
+void FileManagement::writeTableToFile(ofstream &filestream,
                                       vector<string> charTable,
                                       vector<vector<Color>> colorTable) {
-  filestream << "# Tabel Hasil Pemrosesan" << endl << endl;
-
   if (charTable.size() == 0) {
     filestream << "--- Tabel Kosong ---" << endl;
     return;

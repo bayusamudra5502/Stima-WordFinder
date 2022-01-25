@@ -113,5 +113,18 @@ for i in table:
 
 print()
 
+f = open("answer.txt", "w")
+for i in table:
+  for ch in i:
+    if ch == "" or not ch.isalnum():
+      f.write("-")
+    else:
+      f.write(ch)
+    
+    f.write(" ")
+  f.write("\n")
+
+f.close()
+
 for i in words:
   print(i)

@@ -1,9 +1,11 @@
 #include <ctime>
+#include <fstream>
 #include <iostream>
 
 #include "lib/Matcher.hpp"
 #include "lib/io/Console.hpp"
 #include "lib/io/File.hpp"
+
 using namespace std;
 using namespace FileManagement;
 
@@ -35,12 +37,40 @@ int main(int argc, char* argv[]) {
   }
 
   clock_t timeStop = clock();
+  vector<vector<Color>> colorTable = matcher.getColorizedResult();
 
-  Console::printTable(table, matcher.getColorizedResult());
+  Console::printTable(table, colorTable);
 
   cout << "Waktu Eksekusi : "
        << (1000.0 * (timeStop - timeStart)) / CLOCKS_PER_SEC << " ms" << endl
        << endl;
+
+  cout << "Apakah anda ingin menyimpan file hasil pemrosesan [Y/n] ? ";
+
+  string ans;
+  getline(cin, ans);
+
+  if (tolower(ans[0]) == 'y') {
+    cout << "Masukan path file : ";
+
+    string path;
+    getline(cin, path);
+    ofstream filestream(path);
+
+    filestream << "-- Hasil Pemrosesan --" << endl;
+
+    writeTableToFile(filestream, table, colorTable);
+
+    filestream << endl;
+    filestream << "Waktu Eksekusi : "
+               << (1000.0 * (timeStop - timeStart)) / CLOCKS_PER_SEC << " ms"
+               << endl;
+
+    filestream.close();
+
+    cout << endl << "Berhasil menyimpan data" << endl;
+    cout << endl;
+  }
 
   return 0;
 }
