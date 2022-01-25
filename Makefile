@@ -45,13 +45,13 @@ all: clear build
 	@mkdir -p build/lib
 	@ar rcs $@ $^
 
-./bin/test: ./build/lib/libs.a $(TESTING_OBJ)
+./bin/test: $(TESTING_OBJ) ./build/lib/libs.a
 	@mkdir -p bin
-	@$(CPP) -g $(TEST_FLAG) -c $< -o $@
+	@$(CPP) -g -o $@ $(TESTING_OBJ) ./build/lib/libs.a -lgtest
 
 ./bin/main: ./build/lib/libs.a ./src/main.cpp
 	@mkdir -p bin
-	@$(CPP) $(CFLAG) -c $< -o $@
+	@$(CPP) $(CFLAG) $< -o $@
 
 test: ./bin/test
 	@./bin/test
