@@ -49,7 +49,7 @@ all: clear build
 	@mkdir -p bin
 	@$(CPP) -g -o $@ $(TESTING_OBJ) ./build/lib/libs.a -lgtest
 
-./bin/main: ./build/lib/libs.a ./src/main.cpp
+./bin/main: ./src/main.cpp ./build/lib/libs.a
 	@mkdir -p bin
 	@$(CPP) $(CFLAG) $^ -o $@
 

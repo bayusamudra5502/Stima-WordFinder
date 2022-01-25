@@ -1,7 +1,10 @@
 #include <iostream>
+
+#include "lib/io/Console.hpp"
 using namespace std;
 
 int main() {
-  cout << "Halo, Dunia" << endl;
+  Console::printHeader();
+
   return 0;
 }

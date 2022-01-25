@@ -3,10 +3,12 @@
 #include <string>
 #include <vector>
 
-#include "../lib/types.hpp"
+#include "../types.hpp"
 
 using namespace std;
 
 namespace Console {
 void printTable(vector<string> charTable, vector<vector<Color>> colorTable);
-}
+string getColoredChar(Color color, char ch);
+void printHeader();
+}  // namespace Console

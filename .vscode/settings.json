@@ -4,6 +4,7 @@
     "*.js": "javascript",
     "*.pl": "prolog",
     "string": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "iosfwd": "cpp"
   }
 }
