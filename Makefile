@@ -51,12 +51,12 @@ all: clear build
 
 ./bin/main: ./build/lib/libs.a ./src/main.cpp
 	@mkdir -p bin
-	@$(CPP) $(CFLAG) $< -o $@
+	@$(CPP) $(CFLAG) $^ -o $@
 
 test: ./bin/test
 	@./bin/test
 
 run: ./bin/main
-	@./bin/run
+	@./bin/main
 
 .PHONY: all clean clear test run
