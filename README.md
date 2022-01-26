@@ -38,3 +38,29 @@ Untuk melakukan testing, jalankan perintah berikut
 ```shell
 sudo apt install libgtest-dev
 ```
+
+## Menjalankan Program
+
+Berikut ini adalah langkah untuk menjalankan program.
+
+### Menjalankan Program
+
+Untuk menjalankan program, anda hanya perlu menjalankan perintah berikut:
+
+```shell
+make run
+```
+
+Setelah perintah diatas, input path file yang menjadi pengujian. Setelah hasil keluar, anda dapat menyimpan hasil perhitungan dalam file ataupun tidak.
+
+### Unit Testing
+
+Untuk menjalankan unit testing, jalankan perintah berikut:
+
+```shell
+make test
+```
+
+## Author
+
+Program ini dibuat oleh [Bayu Samudra](https://github.com/bayusamudra5502) (1350128).
