@@ -37,4 +37,5 @@ P - - - - C - - E - - - T O - - A X - - - - - - - P - - - - - - - -
 - - - - - - - - N I - - - - M - - - - - - - A - - - - - - - - - - -
 - - - - - - - A O - - - - - - - - - - - - M - - - - - - - - - - - -
 
-Waktu Eksekusi : 1010.46 ms
+Jumlah Perbandingan : 651828
+Waktu Eksekusi : 1058.53 ms

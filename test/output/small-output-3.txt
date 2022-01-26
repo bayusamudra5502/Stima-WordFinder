@@ -15,4 +15,5 @@ W - - - - - N - Y - - - - E - -
 - - - - - - - - - - - H - A - O
 - - - - - - - - - - - - - P - -
 
-Waktu Eksekusi : 47.549 ms
+Jumlah Perbandingan : 16352
+Waktu Eksekusi : 58.164 ms

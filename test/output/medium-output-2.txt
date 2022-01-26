@@ -21,4 +21,5 @@ N - - - - - - - - - - A I - P - - E - T U -
 - - - - D E C N U O R T E E R - - - - N - -
 - - - - H A Z I N E S S D - - - - - - G - -
 
-Waktu Eksekusi : 110.127 ms
+Jumlah Perbandingan : 52734
+Waktu Eksekusi : 126.506 ms

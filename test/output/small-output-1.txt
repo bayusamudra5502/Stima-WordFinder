@@ -15,4 +15,5 @@
 - - - - - - I - T - - Y - - - C
 - - - - - - V - - - - - - - - -
 
-Waktu Eksekusi : 45.623 ms
+Jumlah Perbandingan : 17566
+Waktu Eksekusi : 48.665 ms

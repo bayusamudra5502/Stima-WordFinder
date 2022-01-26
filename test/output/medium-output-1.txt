@@ -21,4 +21,5 @@ D - - - A M O - H - S - - - - A - - - F - -
 - - - - - - - - - - - - - - - - D H - - - -
 - - - - - S U I S L E C - - L E E S T - - -
 
-Waktu Eksekusi : 116.706 ms
+Jumlah Perbandingan : 62434
+Waktu Eksekusi : 102.889 ms

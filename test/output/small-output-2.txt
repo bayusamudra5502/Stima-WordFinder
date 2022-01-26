@@ -15,4 +15,5 @@ E - - - - - N S - M - D - - - -
 - - - - - - - I - C - - - - - -
 - - - - - - - A - - - - - - - -
 
-Waktu Eksekusi : 43.166 ms
+Jumlah Perbandingan : 16240
+Waktu Eksekusi : 31.729 ms

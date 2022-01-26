@@ -21,4 +21,5 @@ T O R T O I S E - - - - - - - - R - - E
 - - - - - P - C - - - - - - - - - - - -
 - - - - - - O - - - E L E P H A N T - -
 
-Waktu Eksekusi : 113.912 ms
+Jumlah Perbandingan : 49246
+Waktu Eksekusi : 106.08 ms

@@ -37,4 +37,5 @@ F - - - - - - - - - - - - C - - E - - - S - - - - - - - T O - - F -
 - - - - - - - - - - - - - - - - - - - - - - - N E T - - - - - O - -
 - - - - - - - - - N O D N A B A - - - - - - - U - - - - - - - - T -
 
-Waktu Eksekusi : 662.428 ms
+Jumlah Perbandingan : 444960
+Waktu Eksekusi : 669.372 ms

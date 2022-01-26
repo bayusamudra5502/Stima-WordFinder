@@ -37,4 +37,5 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - I
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - N
 
-Waktu Eksekusi : 334.208 ms
+Jumlah Perbandingan : 177852
+Waktu Eksekusi : 329.398 ms
