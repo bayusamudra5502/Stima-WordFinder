@@ -12,6 +12,7 @@ class StringMatcher {
   vector<vector<Color>> colorTable;
   vector<string> charTable;
   pair<int, int> size;
+  int characterCheck = 0;
   int colorNumber = 0;
 
   bool isPositionExist(pair<int, int> pos);
@@ -29,5 +30,7 @@ class StringMatcher {
   void match(string s, bool heuristic);
   pair<int, int> getSize();
   vector<vector<Color>> getColorizedResult();
+
+  int getCharacterCheck();
 };
 }  // namespace Matcher

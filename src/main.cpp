@@ -41,6 +41,7 @@ int main(int argc, char* argv[]) {
 
   Console::printTable(table, colorTable);
 
+  cout << "Jumlah Perbandingan : " << matcher.getCharacterCheck() << endl;
   cout << "Waktu Eksekusi : "
        << (1000.0 * (timeStop - timeStart)) / CLOCKS_PER_SEC << " ms" << endl
        << endl;
@@ -62,6 +63,8 @@ int main(int argc, char* argv[]) {
     writeTableToFile(filestream, table, colorTable);
 
     filestream << endl;
+    filestream << "Jumlah Perbandingan : " << matcher.getCharacterCheck()
+               << endl;
     filestream << "Waktu Eksekusi : "
                << (1000.0 * (timeStop - timeStart)) / CLOCKS_PER_SEC << " ms"
                << endl;

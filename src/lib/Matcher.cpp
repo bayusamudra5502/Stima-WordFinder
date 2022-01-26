@@ -112,6 +112,7 @@ void StringMatcher::matchDirection(pair<int, int> pos, Direction dir,
       }
 
       match++;
+      this->characterCheck++;
       posIndex = this->getAdjecentIdx(posIndex, dir);
     }
 
@@ -177,3 +178,5 @@ void StringMatcher::match(string pattern, bool heuristic) {
 void StringMatcher::match(string pattern) { this->match(pattern, false); }
 
 pair<int, int> StringMatcher::getSize() { return this->size; }
+
+int StringMatcher::getCharacterCheck() { return this->characterCheck; }
