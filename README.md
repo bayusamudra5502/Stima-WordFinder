@@ -61,6 +61,36 @@ Untuk menjalankan unit testing, jalankan perintah berikut:
 make test
 ```
 
+### Puzzle Generator
+
+Untuk menjalankan generator, anda perlu menginstall python 3. Anda perlu memasukan inputan pada python sebagai berikut
+
+```
+JUMLAH_BARIS
+JUMLAH_KOLOM
+...Kata yang ingin dimasukan pada puzzle
+. (Diakhiri titik)
+```
+
+Contoh untuk membuat puzzle ukuran 11x10 dengan tiga kata adalah sebagai berikut
+
+```
+11
+10
+ALLIGATOR
+BEAR
+ELEPHANT
+.
+```
+
+Untuk menjalankan skrip ini, anda dapat menjalankan perintah berikut
+
+```shell
+python util/generator.py
+```
+
+Hasil dari pemrosesan akan ditampilkan pada `stdout`.
+
 ## Author
 
 Program ini dibuat oleh [Bayu Samudra](https://github.com/bayusamudra5502) (1350128).
